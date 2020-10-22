@@ -1,0 +1,40 @@
+#parent {
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+#first {
+    background-color: blue; 
+    position: absolute;
+
+}
+
+#second{
+    background-color: green;
+    right: 0;
+}
+
+#third{
+    background-color: gold;
+    bottom: 0;
+}
+
+#fourth{
+    background-color: purple;
+    right: 0;
+    bottom: 0;
+}
+
+#fifth {
+    background-color: white;
+    right: 100px;
+    bottom: 100px;
+}
